@@ -62,7 +62,7 @@ if __name__ == '__main__':
     while True:
         query = take_command()
 
-        # todo: Add more sites as you want
+        #Add more sites as you want
         sites = [
             ["YouTube", "https://www.youtube.com"],
             ["Wikipedia", "https://wikipedia.org"],
@@ -79,7 +79,7 @@ if __name__ == '__main__':
             strfTime = datetime.datetime.now().strftime("%H:%M")
             speak(f"The time is {strfTime}")
 
-        # todo add more applications by copying path
+        # add more applications by copying path
         applications = [
             ["Discord", r"C:\Users\karthik\OneDrive\Desktop\Discord.lnk"],
             ["Chrome", r"C:\Users\karthik\OneDrive\Desktop\Karthik - Chrome.lnk"],
